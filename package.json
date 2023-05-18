@@ -1,0 +1,39 @@
+{
+  "name": "cypressuiautomationframework",
+  "version": "1.0.0",
+  "description": "Cypress UI automation using typescript",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liniabraham0077/CypressUIAutomationFramework.git"
+  },
+  "keywords": [
+    "cypress",
+    "typescript",
+    "ui",
+    "web",
+    "cucumber"
+  ],
+  "author": "Lini Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liniabraham0077/CypressUIAutomationFramework/issues"
+  },
+  "homepage": "https://github.com/liniabraham0077/CypressUIAutomationFramework#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "17.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
+    "@cypress/webpack-preprocessor": "^5.17.1",
+    "cypress": "12.12.0",
+    "esbuild": "^0.17.18",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "*",
+    "cypress": "*"
+  }
+  
+}
